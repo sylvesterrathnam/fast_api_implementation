@@ -19,6 +19,7 @@ from orders.api.schemas import (
 order = {
     'id': 'ff0f1355-e821-4178-9567-550dec27a373',
     'status': 'delivered',
+    'init': 'yes',
     'created': datetime.now(timezone.utc),
     'order': [
         {
@@ -26,7 +27,7 @@ order = {
             'size': 'medium',
             'quantity': 1
         }
-    ]
+    ],
 }
 
 ORDERS = []
